@@ -1,0 +1,190 @@
+nav ul a, nav .brand-logo {
+  color: white;
+}
+
+.brand-logo {
+  height: 65px;
+}
+
+img {
+  width: 120px;
+}
+
+.parallax-container {
+  min-height: 200px;
+  line-height: 0;
+  height: auto;
+}
+
+.parallax-header {
+  min-height: 320px;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .brand-logo {
+    height: 63px;
+  }
+  .input-field input[type=search] {
+    width: 150px !important;
+    height: 64px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .brand-logo {
+    height: 55px;
+  }
+  .input-field input[type=search] {
+    width: 150px !important;
+    height: 56px !important;
+  }
+  .material-icons {
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-container .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .input-field input[type=search] {
+    width: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .input-field input[type=search] {
+    width: 25px !important;
+  }
+}
+
+/* search styling */
+
+input-field input[type=text]+label, .materialize-textarea:focus:not([readonly])+label {
+  color: white !important;
+}
+
+.input-field input[type=text], .materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+
+.input-field input[type=text]:focus+label, .materialize-textarea:focus:not([readonly])+label {
+  color: white !important;
+}
+
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+
+/* Optional: Makes the sample page fill the window. */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.material-icons {
+  color: white !important;
+  margin-top: 20%;
+}
+
+.material-icons.active {
+  color: #01579b !important;
+}
+
+.input-field [type=text] {
+  color: white;
+}
+
+/* margin for page elements */
+
+.row {
+  margin-top: 50px;
+}
+
+.gameImage {
+  height: 220px;
+}
+
+.playerCardImg {
+  width: 100%;
+  height: 100%;
+}
+
+.timeZone {
+  font-size: 18px !important;
+}
+
+#teamBio {
+  margin-top: 0;
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+}
+
+.teamTitle {
+  margin-left: 5%;
+}
+
+.footie {
+  padding-top: 0px;
+}
+
+.carousel-item {
+  margin: 40px 50px;
+  background-color: red;
+  color: white;
+}
+
+.carousel .carousel-item {
+  visibility: visible !important;
+}
+
+.carousel-item {
+  margin: 0 0;
+}
+
+.carouselImg0 {
+  position: relative;
+  margin: 0;
+}
+
+.input-field input[type=search] {
+  height: 64px;
+}
